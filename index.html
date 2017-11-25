@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Technical Test UQ</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<section id="firstPage">
+			<div class="bgSquareFirst">
+				<div class="heading">
+                    PROFILE CREATION AND SEARCH              
+                </div>
+                <hr />
+                <button type="button" class="btn firstBtn" data-toggle="modal" data-target="#createForm">CREATE</button>
+                <br/>
+                <button type="button" class="btn firstBtn" data-toggle="modal" data-target="#searchForm">SEARCH</button>               
+			</div>
+		</section>                
+	</div>
+    
+    <div class="modal fade" id="createForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-title heading" id="createModalLabel">CREATE PROFILE</div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name" class="form-control-label">Name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="position" class="form-control-label">Position</label>
+                            <input type="text" class="form-control" id="position">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-control-label">Email</label>
+                            <input type="text" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="biography" class="form-control-label">Biography</label>
+                            <textarea class="form-control" id="biography"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="file" name="img[]" class="file">
+                            <div class="input-group col-xs-12">
+                            <input type="text" class="form-control input-lg" disabled placeholder="Upload Profile Image">
+                            <span class="input-group-btn">
+                                <button class="btn searchBtn input-lg" type="button">Browse</button>
+                            </span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn searchBtn">Submit</button>
+                </div>
+            </div>
+        </div>  
+    </div>
+    
+    <div class="modal fade" id="searchForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-title heading" id="createModalLabel">SEARCH FOR A PROFILE</div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name" class="form-control-label">Name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>                        
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn searchBtn">Submit</button>
+                </div>
+            </div>
+        </div>  
+    </div>
+    
+
+</body>
+
+</html>

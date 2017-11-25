@@ -1,0 +1,76 @@
+@font-face
+{
+    font-family: "Poppins Bold";
+    src: url("/fonts/Poppins-Bold.ttf");
+}
+
+@font-face
+{
+    font-family: "Poppins Regular";
+    src: url("/fonts/Poppins-Regular.ttf");
+}
+
+body
+{
+	background-color: #00A0B0;
+}
+
+#firstPage
+{
+    height: 100vh;
+}
+
+
+.bgSquareFirst
+{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-image: url("/img/bgLetters.jpg");
+    width: 500px;
+    height: auto;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+
+.file {
+  visibility: hidden;
+  position: absolute;
+}
+
+.heading
+{
+    font-family: 'Poppins Bold';
+    font-size: 20px;
+        
+}
+
+hr
+{
+    height: 2px;
+    background-color: black;
+       
+}
+
+.searchBtn
+{
+    color: white;
+    background-color: black;
+    font-family: 'Poppins Regular';
+}
+
+.firstBtn
+{
+    margin: 10px;
+    font-family: 'Poppins Bold';
+    font-size: 20px;
+    width: 200px; 
+    color: white;
+    background-color: black;
+    
+}
