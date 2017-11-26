@@ -16,10 +16,10 @@
                 <div class="col-sm-6" id="profileForm">
                 <div class="bgSquare">
 				<div class="heading">
-                    PROFILE CREATION              
+                    PROFILE CREATION FORM             
                 </div>
                 <hr />
-                <form action="saveData.php" method="post" id="createP">
+                <form id="createP">
                         <div class="form-group">
                             <label for="name" class="form-control-label">Name</label>
                             <input type="text" class="form-control" id="name">
@@ -40,9 +40,9 @@
                             <label for="file">Choose file to upload</label>
                             <input type="file" id="file" name="pathToPic" onchange="readURL(this);">
                         </div>
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <input type="button" id="createProfBtn" class="btn" value="Create">
-                        <input type="submit" value="Save" name="submit" class="btn" id="submitBtn">
+                        <button type="button" class="btn secondBtn">Close</button>
+                        <input type="button" id="createProfBtn" class="btn secondBtn" value="Create">
+                        
                     </form>               
 			</div>
             

@@ -8,14 +8,14 @@ $(document).ready(function () {
     });
     
     $(".bgSquareDisplay").hide();
-    $("#submitBtn").hide();
+    
 });
 
 function CreateProfile()
 {
     //get users input and put in js object
      
-    $("#submitBtn").show();
+    
         nme = $("#name").val(),
         pos = $("#position").val(),
         email = $("#email").val(),

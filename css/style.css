@@ -148,12 +148,6 @@ hr
        
 }
 
-.searchBtn
-{
-    color: white;
-    background-color: black;
-    font-family: 'Poppins Regular';
-}
 
 .firstBtn
 {
@@ -164,4 +158,21 @@ hr
     color: white;
     background-color: black;
     
+}
+
+.firstBtn:hover
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.secondBtn
+{
+    font-family: 'Poppins Bold';
+    color: white;
+    background-color: black;
+}
+
+.secondBtn:hover
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
