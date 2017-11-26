@@ -20,8 +20,6 @@ body
     height: 100vh;
 }
 
-
-
 .bgSquareFirst
 {
 	position: absolute;
@@ -60,7 +58,6 @@ body
     
     
 }
-
 
 .circle-img 
 {
@@ -121,6 +118,14 @@ h2
    font-family: 'Poppins Bold'; 
 }
 
+#middle
+{
+   height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
 #display
 {
     height: 100vh;
@@ -129,7 +134,8 @@ h2
     justify-content: center;
 }
 
-.file {
+.file 
+{
   visibility: hidden;
   position: absolute;
 }
@@ -141,12 +147,7 @@ h2
         
 }
 
-hr
-{
-    height: 2px;
-    background-color: black;
-       
-}
+
 
 
 .firstBtn

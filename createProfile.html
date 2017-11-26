@@ -11,15 +11,12 @@
 
 <body>
 	<div class="container">
-		
-            <div class="row">
-                <div class="col-sm-6" id="profileForm">
+        <div class="row">
+            <div class="col-sm-5" id="profileForm">
                 <div class="bgSquare">
-				<div class="heading">
-                    PROFILE CREATION FORM             
-                </div>
-                <hr />
-                <form id="createP">
+                    <div class="heading">PROFILE CREATION FORM</div>
+                    <hr style="height: 2px; background-color: black;" />
+                    <form id="createP">
                         <div class="form-group">
                             <label for="name" class="form-control-label">Name</label>
                             <input type="text" class="form-control" id="name">
@@ -40,48 +37,30 @@
                             <label for="file">Choose file to upload</label>
                             <input type="file" id="file" name="pathToPic" onchange="readURL(this);">
                         </div>
-                        <button type="button" class="btn secondBtn">Close</button>
                         <input type="button" id="createProfBtn" class="btn secondBtn" value="Create">
-                        
-                    </form>               
-			</div>
-            
-            
-            
+                    </form>
+                </div>          
             </div>
-            <div class="col-sm-6" id="display">
+            <div class="col-sm-2" id="middle">
+                    <hr style="width: 2px; height: 600px; background-color: white;"/>
+            </div>
+            <div class="col-sm-5" id="display">
                 <div class="bgSquareDisplay">
                     <div class="col-xs-3" id="left">
                         <div class="circle-img img-circle">
                             <img id="profilePic" src="http://placehold.it/180" >
                         </div>
-                        
-                        
-                    </div>
-                    
+                    </div>                   
                     <div class="col-xs-9" id="right">
                         <h2 id="profileName"></h2>                      
-                        <p id="profilePosition"></p>
+                        <p id="profilePosition"></p>                        
                         <p id="profileEmail"></p>
                         <p id="headingBio">Biography</p>
                         <p id="profileBio"></p>
                     </div>
-                
-                
                 </div>
-            
-            
-            
             </div>
-            
-            
-            </div>
-            					              
-	</div>
-    
-     
-    
-    
+        </div>
+    </div>  
 </body>
-
 </html>
